@@ -36,7 +36,6 @@ class WebsocketBase {
 
   start() {
     // WebSocketへ接続し、処理を開始します.
-    // 本メソッドをメインスレッドから別スレッドとして起動します.
     this.ws = null;
     this.retry = true;
     this.retryCount = 0;
